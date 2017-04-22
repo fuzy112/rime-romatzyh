@@ -112,8 +112,8 @@ speller:
     - xform/Y3\>/yy/
     - xform/Y4\>/yh/
     - xform/5\>//
-    - abbrev/^([a-z]+)$/$1/
-    - abbrev/^(ts|tz|sh|ch)\w+$/$1/
+    - abbrev/^([a-z]).+$/$1/
+    - abbrev/^(ts|tz|sh|ch).+$/$1/
 
 translator:
   dictionary: terra_pinyin
