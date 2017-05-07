@@ -54,7 +54,7 @@ speller:
     - erase/^xx$/
     - xform/\<r5/el/
     - xform/\<([jqx])u/$1v/
-    - xform/([zcsrh])i([1-4])\>/$1Y$2/
+    - xform/([zcsrh])i([1-5])\>/$1Y$2/
     - xform/\<er/el/
     - xform/\<zh/j/
     - xform/\<z([aeiouyY])/tz$1/
@@ -111,6 +111,7 @@ speller:
     - xform/Y2\>/yr/
     - xform/Y3\>/yy/
     - xform/Y4\>/yh/
+    - xform/Y5\>/y/
     - xform/5\>//
     - abbrev/^([a-z]).+$/$1/
     - abbrev/^(ts|tz|sh|ch).+$/$1/
@@ -123,7 +124,7 @@ translator:
     - erase/^xx$/
     - xform/\<r5/el/
     - xform/\<([jqx])u/$1v/
-    - xform/([zcsrh])i([1-4])\>/$1Y$2/
+    - xform/([zcsrh])i([1-5])\>/$1Y$2/
     - xform/\<er/el/
     - xform/\<zh/j/
     - xform/\<z([aeiouyY])/tz$1/
@@ -180,6 +181,7 @@ translator:
     - xform/Y2\>/yr/
     - xform/Y3\>/yy/
     - xform/Y4\>/yh/
+    - xform/Y5\>/y/
     - xform/5\>//
 
 reverse_lookup:
@@ -195,7 +197,7 @@ reverse_lookup:
     - xform/\<r5/el/
     - derive/^el$/l/
     - xform/\<([jqx])u/$1v/
-    - xform/([zcsrh])i([1-4])\>/$1Y$2/
+    - xform/([zcsrh])i([1-5])\>/$1Y$2/
     - xform/\<er/el/
     - xform/\<zh/j/
     - xform/\<z([aeiouyY])/tz$1/
@@ -252,6 +254,7 @@ reverse_lookup:
     - xform/Y2\>/yr/
     - xform/Y3\>/yy/
     - xform/Y4\>/yh/
+    - xform/y5\>/y/
     - xform/5\>//
  
 punctuator:
