@@ -64,7 +64,7 @@ speller:
     - xform/iu([1-5])\>/iou$1/
     - xform/ui([1-5])\>/uei$1/
     - xform/ao([1-5])\>/au$1/
-    - xform/un([1-5])\>/uen$1/
+    - xform/([^y])un([1-5])\>/$1uen$2/
     - xform/v/iu/
     - xform/\<wu([1-5])\>/u$1/
     - xlit/yw/iu/
