@@ -6,5 +6,4 @@
 
 ## 安装
 
-[东风破](https://github.com/rime/plum) 安装口令： `bash rime-install lotem/rime-zhung`
-
+[东风破](https://github.com/rime/plum) 安装口令： `bash rime-install chingyat/rime-romatzyh`
