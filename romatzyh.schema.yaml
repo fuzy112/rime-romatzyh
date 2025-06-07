@@ -6,7 +6,7 @@ schema:
   name: 國語羅馬字
   version: "0.2"
   author:
-    - chingyat <tsingyat@outlook.com>
+    - Zhengyi Fu <i@fuzy.me>
   description: |
     國語羅馬字輸入方案。
   dependencies:
